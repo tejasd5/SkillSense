@@ -1,0 +1,2 @@
+John Doe
+Experience: Built ML models for customer churn using python, pandas, scikit-learn. Deployed models to AWS using Docker. Proficient in SQL and data analysis.
