@@ -82,18 +82,6 @@ streamlit run app.py
 
 
 App will launch at 👉 http://localhost:8501
-Folder Structer:
-SkillSense_AI/
-│
-├── app.py                       # Main Streamlit app
-├── skill_utils.py               # Core NLP + ML functions
-├── precompute_embeddings.py     # Precomputes skill embeddings
-├── roles.json                   # Job role definitions
-├── skills_ontology.json         # Master skill ontology
-├── sample_resumes/              # Example resumes
-├── assets/                      # Images, summary PDF
-├── requirements.txt
-└── README.md
 
 📊 Sample Output:
 
