@@ -1,5 +1,58 @@
 {
-  "Data Scientist": ["python","sql","machine learning","pandas","numpy","scikit-learn","data analysis","communication"],
-  "Backend Developer": ["python","rest api","docker","git","linux","sql","aws"],
-  "Product Manager": ["product management","communication","team leadership","sql","data analysis"]
+  "Technical": {
+    "Backend Developer": ["python", "rest api", "docker", "git", "linux", "sql", "aws", "fastapi"],
+    "Frontend Developer": ["javascript", "react", "html", "css", "ui design", "git", "typescript"],
+    "Full Stack Developer": ["javascript", "python", "react", "rest api", "docker", "sql", "git", "aws"],
+    "Mobile Developer": ["android", "ios", "kotlin", "swift", "react native", "git"],
+    "Data Engineer": ["python", "sql", "spark", "etl", "aws", "airflow", "data pipelines"],
+    "Data Scientist": ["python", "sql", "machine learning", "pandas", "numpy", "scikit-learn", "data analysis", "communication"],
+    "ML Engineer": ["python", "pandas", "numpy", "machine learning", "scikit-learn", "docker", "api", "aws"],
+    "AI Engineer": ["python", "deep learning", "tensorflow", "pytorch", "machine learning", "docker", "aws", "nlp"],
+    "AI Researcher": ["python", "nlp", "deep learning", "pytorch", "research", "data analysis", "tensorflow"],
+    "DevOps Engineer": ["docker", "kubernetes", "ci/cd", "jenkins", "linux", "aws", "terraform"],
+    "Cloud Engineer": ["aws", "azure", "gcp", "docker", "kubernetes", "linux", "terraform"],
+    "Cybersecurity Analyst": ["network security", "python", "linux", "risk management", "firewall", "threat analysis"],
+    "QA / Test Engineer": ["testing", "automation", "selenium", "python", "api testing", "ci/cd"],
+    "Blockchain Developer": ["solidity", "smart contracts", "ethereum", "javascript", "python", "web3"]
+  },
+  "Product": {
+    "Product Manager": ["product management", "communication", "team leadership", "sql", "data analysis"],
+    "AI Product Manager": ["ai", "ml", "data analysis", "communication", "product management"],
+    "Growth Product Manager": ["growth", "analytics", "a/b testing", "sql", "product management"]
+  },
+  "Design": {
+    "UX Designer": ["figma", "ui design", "wireframing", "user research", "prototyping"],
+    "UI Designer": ["figma", "ui design", "visual design", "prototyping", "html", "css"],
+    "Graphic Designer": ["photoshop", "illustrator", "visual design", "branding", "typography"],
+    "Motion Designer": ["after effects", "animation", "motion graphics", "video editing"]
+  },
+  "HR": {
+    "HR Generalist": ["hr policies", "employee relations", "communication", "recruitment", "hris"],
+    "Talent Acquisition / Recruiter": ["sourcing", "interviews", "linkedin", "communication", "candidate screening"],
+    "Learning & Development Specialist": ["l&d", "instructional design", "training", "learning pathways", "assessment"],
+    "People Operations": ["people ops", "hr analytics", "onboarding", "policies", "communication"],
+    "Compensation & Benefits Analyst": ["compensation", "benefits", "payroll", "excel", "data analysis"]
+  },
+  "Finance": {
+    "Financial Analyst": ["financial modeling", "excel", "sql", "power bi", "reporting", "accounting basics"],
+    "FP&A Analyst": ["financial planning", "forecasting", "excel", "power bi", "reporting"],
+    "Accountant": ["accounting", "bookkeeping", "audit", "excel", "tax"],
+    "Risk Analyst": ["risk management", "financial modeling", "statistics", "excel"],
+    "Investment Analyst": ["financial analysis", "valuation", "excel", "research"],
+    "Treasury Analyst": ["cash management", "treasury", "excel", "banking"]
+  },
+  "Operations": {
+    "Project Manager": ["project management", "planning", "risk management", "communication", "jira"],
+    "Operations Manager": ["operations", "process improvement", "lean", "communication", "data analysis"],
+    "Business Analyst": ["excel", "sql", "tableau", "communication", "requirements gathering"],
+    "Supply Chain Manager": ["supply chain", "logistics", "inventory management", "erp", "planning"]
+  },
+  "Research & Academia": {
+    "Research Scientist": ["research", "python", "statistics", "experimental design", "publishing"],
+    "AI Research Scientist": ["deep learning", "research", "pytorch", "tensorflow", "nlp"]
+  },
+  "Marketing": {
+    "Digital Marketer": ["seo", "content marketing", "analytics", "google analytics", "social media"],
+    "SEO Specialist": ["seo", "keyword research", "analytics", "content optimization"]
+  }
 }
