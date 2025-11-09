@@ -34,34 +34,6 @@ Visualization:	Matplotlib, Streamlit components
 Integrations:	GitHub REST API, LinkedIn public parsing
 Data Storage:	JSON ontology for roles & skills
 Environment:	Virtualenv + Requirements.txt
-🧩 System Architecture:
-            +--------------------------+
-            |      User Uploads        |
-            |  (Resume / GitHub / LI)  |
-            +------------+-------------+
-                         |
-                         v
-           +-------------+--------------+
-           |  Text Extractor & Cleaner  |
-           | (pdfplumber / docx / NLP)  |
-           +-------------+--------------+
-                         |
-                         v
-           +-------------+--------------+
-           |  Skill Extractor (AI/NLP)  |
-           |  - Keyword Match           |
-           |  - Semantic Embedding Match|
-           +-------------+--------------+
-                         |
-                         v
-           +-------------+--------------+
-           | Role Comparator & Analyzer |
-           +-------------+--------------+
-                         |
-                         v
-           +-------------+--------------+
-           |  Streamlit Dashboard (UI)  |
-           +-----------------------------+
 
 🧠 ML Model Details:
 
@@ -110,8 +82,7 @@ streamlit run app.py
 
 
 App will launch at 👉 http://localhost:8501
-
-🧾 Folder Structure
+Folder Structer:
 SkillSense_AI/
 │
 ├── app.py                       # Main Streamlit app
