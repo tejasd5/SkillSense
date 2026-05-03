@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import re
 import html
+st.write("NEW VERSION LOADED")
 
 # import skill utilities
 try:
