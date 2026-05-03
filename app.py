@@ -234,10 +234,6 @@ if analyze:
         # Clean comparison display (missing + resources)
         st.subheader(f"🔎 Comparison vs {selected_role}")
 
-        # Debug expander (optional)
-        with st.expander("🧰 DEBUG - comp value (click to view)"):
-            st.json(comp)
-
         # Missing skills with expanders and learning links
         if comp.get('missing'):
             st.markdown("### ❗ Missing Skills — click each to view learning resources")
